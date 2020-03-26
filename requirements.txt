@@ -10,7 +10,6 @@ infinite-image-downloader==1.0.0
 itsdangerous==1.1.0
 Jinja2==2.11.1
 MarkupSafe==1.1.1
-pkg-resources==0.0.0
 python-dateutil==1.5
 requests==2.23.0
 selenium==3.141.0
