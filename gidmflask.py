@@ -18,7 +18,7 @@ response = simp.simple_image_download
 
 
 app=Flask( __name__)
-@app.route("/")
+@app.route("/",methods=["POST","GET"])
 def index():
     return render_template('imagesnow.html')
     
