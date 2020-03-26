@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+   <head>
+    <title>IMAGES NOW</title>
+  </head>
+    <body background="/static/bk.jpg" class="mdb-skin">
+        <div class="d-flex justify-content-center">
+      
+    <div class="border border-primary">
+    <div class="box">
+      <h1 class="text-center"> IMAGES NOW </h1>
+      <form action="{{url_for('thankU')}}" method="POST" class="inp">
+        <label for="keyword">KEYWORD</label><br>
+        <input type="text" id="keyword" name="keyword" ><br>
+        <label for="noi">NUMBER OF IMAGES</label><br>
+        <input type="text" id="noi" name="noi" ><br>
+        <label for="email">EMAIL ADDRESS</label><br>
+        <input type="text" id="email" name="email" ><br><br>
+        <button class="btn btn-primary">GET IMAGES</button>
+      </form> >
+    </div>
+      </div>
+    </div>
+    </body>
+</html>
