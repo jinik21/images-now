@@ -85,7 +85,7 @@ def thankU():
     s.starttls() 
     
     # Authentication 
-    s.login(fromaddr, "nikheel@007") 
+    s.login(fromaddr, "***password***") 
     
     # Converts the Multipart msg into a string 
     text = msg.as_string() 
