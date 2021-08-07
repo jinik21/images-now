@@ -8,7 +8,7 @@ heroku==0.1.4
 idna==2.9
 infinite-image-downloader==1.0.0
 itsdangerous==1.1.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 python-dateutil==1.5
 requests==2.23.0
