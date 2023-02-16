@@ -15,4 +15,4 @@ requests==2.23.0
 selenium==3.141.0
 simple-image-download==0.21
 urllib3==1.26.5
-Werkzeug==1.0.0
+Werkzeug==2.2.3
